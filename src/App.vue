@@ -4,7 +4,7 @@
       <div>My personal costs</div>
     </header>
     <main>
-      <button class="btn" @click="isVisible">ADD NEW COSTS  +</button>
+      <button class="btn" @click="isVisible">ADD NEW COSTS +</button>
       <AddPaymentForm v-show="visible" @add-payment="addPayment"/>
       <PaymentsDisplay :paymentsList="paymentsList"/>
     </main>
@@ -91,5 +91,11 @@ export default {
 .btn {
   display: flex;
   margin-bottom: 8px;
+  height: 30px;
+  background-color: #3bba9f;
+  border: 1px solid #3f95cd;
+  border-radius: 3px;
+  color: white;
+  gap: 12px;
 }
 </style>

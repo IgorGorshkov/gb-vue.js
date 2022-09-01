@@ -59,6 +59,11 @@ export default {
 .form-btn {
   align-self: end;
   width: 50%;
+  height: 30px;
+  background-color: #3bba9f;
+  border: 1px solid #3f95cd;
+  border-radius: 3px;
+  color: white;
 }
 
 </style>
