@@ -92,6 +92,8 @@ export default {
   display: flex;
   margin-bottom: 8px;
   height: 30px;
+  padding: 8px;
+  box-sizing: border-box;
   background-color: #3bba9f;
   border: 1px solid #3f95cd;
   border-radius: 3px;
